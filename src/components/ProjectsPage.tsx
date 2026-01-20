@@ -5,7 +5,7 @@ import { allProjects } from '../data/projects';
 import styles from '../styles/font.module.css';
 import { motion } from 'framer-motion';
 
-const categories = ["Full-Stack", "Frontend", "All"];
+const categories = ["Full-Stack", "Frontend","UI Design", "All"];
 
 interface ProjectsPageProps {
   onProjectClick: (projectId: number) => void;

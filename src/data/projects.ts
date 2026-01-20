@@ -10,8 +10,8 @@ const dentivaImages = import.meta.glob(
   "../assets/gallery/dentiva/*.{jpg,jpeg,png,webp}",
   { eager: true, import: "default" }
 );
-const k72Images = import.meta.glob(
-  "../assets/gallery/k72/*.{jpg,jpeg,png,webp}",
+const carImages = import.meta.glob(
+  "../assets/gallery/car/*.{jpg,jpeg,png,webp,PNG}",
   { eager: true, import: "default" }
 );
 const koynceImages = import.meta.glob(
@@ -34,18 +34,45 @@ const tripsterImages = import.meta.glob(
   "../assets/gallery/tripster/*.{jpg,jpeg,png,webp}",
   { eager: true, import: "default" }
 );
+const atlantisImages = import.meta.glob(
+  "../assets/gallery/atlantis/*.{jpg,jpeg,png,webp}",
+  { eager: true, import: "default" }
+);
+const furniImages = import.meta.glob(
+  "../assets/gallery/furni/*.{jpg,jpeg,png,webp}",
+  { eager: true, import: "default" }
+);
+const finebankImages = import.meta.glob(
+  "../assets/gallery/finebank/*.{jpg,jpeg,png,webp}",
+  { eager: true, import: "default" }
+);
+const hirrdImages = import.meta.glob(
+  "../assets/gallery/hirrd/*.{jpg,jpeg,png,webp,PNG}",
+  { eager: true, import: "default" }
+);
+const dwelloImages = import.meta.glob(
+  "../assets/gallery/dwello/*.{jpg,jpeg,png,webp}",
+  { eager: true, import: "default" }
+);
+
+
 
 
 
 const gymate = Object.values(gymateImages) as string[];
 const zentry = Object.values(zentryImages) as string[];
 const dentiva = Object.values(dentivaImages) as string[];
-const k72 = Object.values(k72Images) as string[];
+const car = Object.values(carImages) as string[];
 const koynce = Object.values(koynceImages) as string[];
 const spylt = Object.values(spyltImages) as string[];
 const synca = Object.values(syncaImages) as string[];
 const tispy = Object.values(tispyImages) as string[];
 const tripster = Object.values(tripsterImages) as string[];
+const atlantis = Object.values(atlantisImages) as string[];
+const furni = Object.values(furniImages) as string[];
+const finebank = Object.values(finebankImages) as string[];
+const hirrd = Object.values(hirrdImages) as string[];
+const dwello = Object.values(dwelloImages) as string[];
 
 
 
@@ -129,7 +156,7 @@ export const allProjects: Project[] = [
     mockupImages: tripster.slice(1),
   },
   {
-    id: 6,
+    id: 5,
     title: "Zentry",
     description: "A Gaming media platform for experiencing hi quality graphics and visuals",
     category: "Frontend",
@@ -143,25 +170,8 @@ export const allProjects: Project[] = [
     link: "https://zentry-virid.vercel.app/",
     mockupImages:zentry.slice(1),
   },
-  
-
   {
-    id: 7,
-    title: "K72-Agency profile",
-    description: "A modern Agency profile website for showcasing services and portfolio",
-    category: "Frontend",
-    image: k72[0],
-    tags: ["React", "TypeScript", "GraphQL","Framer"],
-    fullDescription: "K72 is a modern agency profile website designed to showcase the company's services, portfolio, and client testimonials in a visually appealing and user-friendly manner. The website features a sleek design, interactive elements, and seamless navigation to provide visitors with an engaging experience while exploring the agency's offerings.",
-    challenges: "Creating a visually compelling design that effectively communicates the agency's brand identity, implementing a dynamic portfolio section to highlight various projects, and ensuring optimal performance and responsiveness across different devices and screen sizes.",
-    solution: "Developed the website using React and TypeScript for a robust and maintainable codebase. Utilized GraphQL to efficiently fetch and manage data for the portfolio and testimonials sections. Employed Framer Motion to add interactive animations and transitions, enhancing user engagement. Implemented responsive design principles using CSS Grid and Flexbox to ensure a seamless experience on both desktop and mobile devices.",
-    results: "Since its launch, the K72 agency profile website has attracted over 15,000 unique visitors, resulting in a 40% increase in client inquiries. The dynamic portfolio section has received positive feedback for its ease of navigation and visual appeal, leading to a 30% boost in project bookings. The website's performance optimization efforts have resulted in a 25% reduction in bounce rates and improved user retention, contributing to the agency's overall growth and brand recognition.",
-    technologies: ["NextJS", "TypeScript", "Tailwind CSS","GSAP"],
-    link: "https://k72-blush.vercel.app/",
-    mockupImages: k72.slice(1),
-  },
-  {
-    id: 8,
+    id: 6,
     title: "Spylt",
     description: "A visually immersive protein drink brand website featuring GSAP-powered animations and scroll-based storytelling.",
     category: "Frontend",
@@ -177,7 +187,7 @@ export const allProjects: Project[] = [
   },
   
   {
-    id: 9,
+    id: 8,
     title: "Tipsy",
     description: "A visually rich mocktail bar and restaurant website featuring smooth GSAP animations and immersive parallax scroll effects.",
     category: "Frontend",
@@ -192,7 +202,7 @@ export const allProjects: Project[] = [
     mockupImages: tispy.slice(1),
   },
    {
-    id: 10,
+    id: 9,
     title: "Koynce",
    description: "A real-time crypto price tracking web app that displays market data in a clean and intuitive interface.",
     category: "Frontend",
@@ -206,4 +216,96 @@ export const allProjects: Project[] = [
     link: "https://koynce-six.vercel.app/",
     mockupImages: koynce.slice(1),
   },  
+  {
+    id: 10,
+    title: "Car Rental",
+    description: "A car rental website featuring car service at your doorstep",
+    category: "Frontend",
+    image: car[0],
+    tags: ["React", "JavaScript", "SASS"],
+  fullDescription: "The Car Rental website ",
+  challenges: "Creating visually appealing animations that enhance the user experience without overwhelming the content, ensuring responsiveness across different devices, and effectively showcasing detailed vehicle information.",
+  solution: "Developed the website using React and JavaScript, incorporating Framer Motion for fluid animations and transitions. Tailwind CSS was employed to create a responsive layout that adapts seamlessly to various screen sizes while maintaining visual consistency.",
+  results: "The Car Showcase website successfully captivates users with its dynamic presentation of vehicles. The combination of smooth animations and interactive features enhances user engagement, making it easier for visitors to explore and appreciate the car models on display.",
+  technologies: ["React", "JavaScript", "SASS"],
+    link: "https://subhaji-dutta.github.io/CarService/",
+    mockupImages: car.slice(1),
+
+  },
+  {
+    id: 11,
+    title: "Atlantis",
+    description: "A visually stunning landing page for a fictional underwater resort, featuring immersive animations and parallax effects.",
+    category: "UI Design",
+    image: atlantis[0],
+    tags: ["Figma"],
+  fullDescription: "The Atlantis landing page is designed to captivate visitors with its immersive tourism resort. It features smooth animations and parallax scrolling effects that create a sense of depth and movement, enhancing the overall user experience.",
+  challenges: "Designing engaging animations that complement the underwater theme, ensuring smooth performance across devices, and creating a responsive layout that maintains visual appeal on various screen sizes.",
+  solution: "Built the landing page using React and JavaScript, leveraging GSAP for advanced animation capabilities. Tailwind CSS was utilized to develop a responsive design that adapts seamlessly to different devices while preserving the thematic elements.",
+  results: "The Atlantis landing page effectively draws users into its underwater world through captivating animations and interactive elements. The parallax effects and smooth transitions enhance user engagement, making the landing page a memorable experience for visitors.",
+  technologies: ["Figma"],
+    link: "https://atlantis-landing-page-example.vercel.app/",
+    mockupImages: atlantis.slice(1),
+  },
+  {
+    id: 12,
+    title: "Furni",
+    description: "A modern furniture e-commerce website featuring a clean design and user-friendly navigation.",
+    category: "UI Design",
+    image: furni[0],
+    tags: ["Figma"],
+  fullDescription: "Furni is an e-commerce website designed to showcase a wide range of furniture products. The site features a clean and modern design, making it easy for users to browse and find items that suit their needs.",
+  challenges: "Creating an intuitive navigation system, designing a visually appealing product layout, and ensuring a seamless user experience across different devices.",
+  solution: "Developed the website using React and JavaScript, with a focus on user experience and visual design. Tailwind CSS was employed to create a responsive layout that adapts to various screen sizes while maintaining a consistent aesthetic.",
+  results: "The Furni e-commerce website provides users with an enjoyable shopping experience through its clean design and easy-to-use navigation. The visually appealing product displays and responsive layout enhance user engagement, making it a go-to destination for furniture shopping.",
+  technologies: ["Figma"],
+    link: "https://furni-ecommerce-example.vercel.app/",
+    mockupImages: furni.slice(1),
+  },
+  {
+    id: 13,
+    title: "FineBank",
+    description: "A sleek and modern banking app interface designed for seamless user experience and financial management.",
+    category: "UI Design",
+    image: finebank[0],
+    tags: ["Figma"],
+  fullDescription: "FineBank is a banking app interface designed to provide users with a seamless experience for managing their finances. The app features a modern design, intuitive navigation, and easy access to essential banking functions.",
+  challenges: "Designing an intuitive user interface, ensuring easy access to key banking features, and creating a visually appealing layout that enhances user engagement.",
+  solution: "Developed the app interface using React and JavaScript, focusing on user experience and visual design. Tailwind CSS was utilized to create a responsive layout that adapts to various screen sizes while maintaining a consistent aesthetic.",
+  results: "The FineBank app interface offers users a smooth and efficient way to manage their finances. The intuitive design and easy navigation enhance user satisfaction, making it a preferred choice for banking needs.",
+  technologies: ["Figma"],
+    link: "https://finebank-app-example.vercel.app/",
+    mockupImages: finebank.slice(1),
+  },
+  {
+    id: 14,
+    title: "HiRRD",
+    description: "A modern HR recruitment dashboard designed to streamline hiring processes and improve candidate management.",
+    category: "Full-Stack",
+    image: hirrd[0],
+    tags: ["React", "TypeScript", "Tailwind CSS"],
+  fullDescription: "HiRRD is an HR recruitment dashboard designed to help HR professionals manage the hiring process more efficiently. The dashboard features a clean design, intuitive navigation, and easy access to essential recruitment functions.",
+  challenges: "Creating an intuitive user interface, ensuring easy access to key recruitment features, and designing a visually appealing layout that enhances user engagement.",
+  solution: "Developed the dashboard using React and JavaScript, focusing on user experience and visual design. Tailwind CSS was utilized to create a responsive layout that adapts to various screen sizes while maintaining a consistent aesthetic.",
+  results: "The HiRRD recruitment dashboard provides HR professionals with an efficient way to manage the hiring process. The intuitive design and easy navigation enhance user satisfaction, making it a preferred choice for recruitment needs.",
+  technologies: ["React", "TypeScript", "Tailwind CSS","clerk", "mongoDB"],
+    link: "https://job-portal-lime-ten.vercel.app/",
+    mockupImages: hirrd.slice(1),
+  },
+  {
+    id: 15,
+    title: "Dwello",
+    description: "A modern real estate listing platform designed to connect buyers and sellers with ease.",
+    category: "UI Design",
+    image: dwello[0],
+    tags: ["Figma"],
+  fullDescription: "Dwello is a real estate listing platform that connects buyers and sellers through a user-friendly interface. The platform features a clean design, intuitive navigation, and easy access to essential real estate functions.",
+  challenges: "Creating an intuitive user interface, ensuring easy access to key real estate features, and designing a visually appealing layout that enhances user engagement.",
+  solution: "Developed the platform using Next.js and TypeScript, focusing on user experience and visual design. Tailwind CSS was utilized to create a responsive layout that adapts to various screen sizes while maintaining a consistent aesthetic.",
+  results: "The Dwello real estate platform provides users with an efficient way to buy and sell properties. The intuitive design and easy navigation enhance user satisfaction, making it a preferred choice for real estate transactions.",
+  technologies: ["Figma"],
+    link: "https://dwello-real-estate-example.vercel.app/",
+    mockupImages: dwello.slice(1),
+  },
+
 ];

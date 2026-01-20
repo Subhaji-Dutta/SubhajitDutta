@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import styles from '../styles/font.module.css'
 
 interface Project {
   id: number;
@@ -45,14 +46,14 @@ export function ProjectCard({ project, onClick }: ProjectCardProps) {
                     transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`}
         >
           <div className="absolute bottom-0 left-0 right-0 p-4 space-y-2">
-            <h3 className="text-white">{project.title}</h3>
-            <p className="text-gray-300 text-sm">{project.description}</p>
+            <h3 className={`${styles.headText} text-white`}>{project.title}</h3>
+            <p className={`${styles.paraText} text-gray-300 text-sm`}>{project.description}</p>
           </div>
         </div>
 
         {/* Bottom gradient always visible on mobile */}
         <div className="md:hidden absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3">
-          <p className="text-white text-sm">{project.title}</p>
+          <p className={`${styles.headText} text-white text-sm`}>{project.title}</p>
         </div>
       </div>
     </div>

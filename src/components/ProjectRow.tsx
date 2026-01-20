@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { ProjectCard } from './ProjectCard';
 import type { Project } from '../data/projects';
 import { motion } from 'motion/react';
-
+import styles from '../styles/font.module.css'
 interface ProjectRowProps {
   title: string;
   projects: Project[];
@@ -48,7 +48,7 @@ export function ProjectRow({ title, projects, onProjectClick }: ProjectRowProps)
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.5 }}
-      className="mb-4 px-4 md:px-12">{title}</motion.h2>
+      className={`${styles.logoText} mb-4 px-4 md:px-12`}>{title}</motion.h2>
 
       <div className="relative">
         {/* Left Arrow */}

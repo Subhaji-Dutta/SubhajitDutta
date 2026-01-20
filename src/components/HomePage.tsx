@@ -13,9 +13,9 @@ const fullstack = allProjects.filter(
 const frontend = allProjects.filter(
   p => p.category === "Frontend"
 ).slice(0, 6);
-// const uiux = allProjects.filter(
-//   p => p.category === "UI/UX Design"
-// ).slice(0, 6);
+const uiux = allProjects.filter(
+  p => p.category === "UI Design"
+).slice(0, 6);
 
 export function HomePage({ onProjectClick }: HomePageProps) {
   return (
@@ -23,11 +23,13 @@ export function HomePage({ onProjectClick }: HomePageProps) {
       <Hero />
       <TechStack />
       <Stack />
-        {/* <ProjectRow
+      <div className="pt-4">
+        <ProjectRow
           title="UI/UX Design"
           projects={uiux}
           onProjectClick={onProjectClick}
-        /> */}
+        />
+        </div>
         <ProjectRow
           title="Frontend Development"
           projects={frontend}
