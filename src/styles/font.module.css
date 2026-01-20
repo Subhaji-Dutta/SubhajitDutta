@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Audiowide";
+  src: url("../assets/fonts/Audiowide.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Lemon";
+  src:url("../assets/fonts/Lemon-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Salsa";
+  src: url("../assets/fonts/Salsa-Regular.ttf") format("truetype");
+}
+
+.loaderText {
+  font-family: "Audiowide", sans-serif;
+  font-size: 2rem;
+}
+
+.logoText{
+  font-family: "Audiowide", sans-serif;
+}
+
+.headText{
+  font-family: "Lemon";
+}
+
+.paraText{
+  font-family: "Salsa";
+}
