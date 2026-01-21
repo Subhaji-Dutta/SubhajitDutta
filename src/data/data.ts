@@ -1,7 +1,7 @@
 import { Code2, Database, Palette,Cloud, Github,Linkedin } from 'lucide-react';
 
 
-export const tech=["React", "Node.js", "TypeScript","UI/UX"];
+export const tech=["React", "Node.js","UI/UX"];
 
 export const experience = [
   {

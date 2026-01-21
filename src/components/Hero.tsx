@@ -33,7 +33,7 @@ const el = useRef<HTMLSpanElement | null>(null);
 }, []);
 
   return (
-    <div className="relative min-h-screen pt-24 overflow-x-hidden" id="home">
+    <div className="relative min-h-screen pt-24" id="home">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
@@ -48,7 +48,7 @@ const el = useRef<HTMLSpanElement | null>(null);
   <ParticlesBackground />
 </div>
       {/* Content */}
-      <section className="relative z-10 w-full flex items-center py-20 md:py-28">
+      <section className="relative z-10 w-full flex items-center py-20 md:py-28" style={{"overflowX":"hidden"}}>
         <div className="w-full min-h-[calc(100vh-6rem)] flex items-center">
           <div className="w-full max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-20 mb:gap-16 items-center">
     

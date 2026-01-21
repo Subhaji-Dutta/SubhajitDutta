@@ -43,7 +43,7 @@ const furniImages = import.meta.glob(
   { eager: true, import: "default" }
 );
 const finebankImages = import.meta.glob(
-  "../assets/gallery/finebank/*.{jpg,jpeg,png,webp}",
+  "../assets/gallery/finebank/*.{jpg,jpeg,png,webp,PNG}",
   { eager: true, import: "default" }
 );
 const hirrdImages = import.meta.glob(

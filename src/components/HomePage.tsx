@@ -23,6 +23,7 @@ export function HomePage({ onProjectClick }: HomePageProps) {
       <Hero />
       <TechStack />
       <Stack />
+      <div className="pb-16">
       <div className="pt-4">
         <ProjectRow
           title="UI/UX Design"
@@ -40,6 +41,7 @@ export function HomePage({ onProjectClick }: HomePageProps) {
           projects={fullstack}
           onProjectClick={onProjectClick}
         />
+        </div>
       </div>
   );
 }
