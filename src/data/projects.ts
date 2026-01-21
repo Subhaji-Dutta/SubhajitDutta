@@ -43,7 +43,7 @@ const furniImages = import.meta.glob(
   { eager: true, import: "default" }
 );
 const finebankImages = import.meta.glob(
-  "../assets/gallery/finebank/*.{jpg,jpeg,png,webp,PNG}",
+  "../assets/gallery/Finebank/*.{jpg,jpeg,png,webp,PNG}",
   { eager: true, import: "default" }
 );
 const hirrdImages = import.meta.glob(
@@ -244,7 +244,7 @@ export const allProjects: Project[] = [
   solution: "Built the landing page using React and JavaScript, leveraging GSAP for advanced animation capabilities. Tailwind CSS was utilized to develop a responsive design that adapts seamlessly to different devices while preserving the thematic elements.",
   results: "The Atlantis landing page effectively draws users into its underwater world through captivating animations and interactive elements. The parallax effects and smooth transitions enhance user engagement, making the landing page a memorable experience for visitors.",
   technologies: ["Figma"],
-    link: "https://atlantis-landing-page-example.vercel.app/",
+    link: "https://www.figma.com/proto/oX7MRbLjvjED4ePPFxOJ72/Atlantis?t=TrQXCZS9M1JlQfCX-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=2-2",
     mockupImages: atlantis.slice(1),
   },
   {
@@ -259,7 +259,7 @@ export const allProjects: Project[] = [
   solution: "Developed the website using React and JavaScript, with a focus on user experience and visual design. Tailwind CSS was employed to create a responsive layout that adapts to various screen sizes while maintaining a consistent aesthetic.",
   results: "The Furni e-commerce website provides users with an enjoyable shopping experience through its clean design and easy-to-use navigation. The visually appealing product displays and responsive layout enhance user engagement, making it a go-to destination for furniture shopping.",
   technologies: ["Figma"],
-    link: "https://furni-ecommerce-example.vercel.app/",
+    link: "https://www.figma.com/proto/WcPZcUXUhK29qcw7d4ruom/Furniture?t=hj0B3U0rDOIgnXcC-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2",
     mockupImages: furni.slice(1),
   },
   {
@@ -274,7 +274,7 @@ export const allProjects: Project[] = [
   solution: "Developed the app interface using React and JavaScript, focusing on user experience and visual design. Tailwind CSS was utilized to create a responsive layout that adapts to various screen sizes while maintaining a consistent aesthetic.",
   results: "The FineBank app interface offers users a smooth and efficient way to manage their finances. The intuitive design and easy navigation enhance user satisfaction, making it a preferred choice for banking needs.",
   technologies: ["Figma"],
-    link: "https://finebank-app-example.vercel.app/",
+    link: "https://www.figma.com/proto/JGEu5S5h3EClonbNxdv6Ny/Finebank?node-id=137-7477&starting-point-node-id=137%3A7477&t=w6DhGLEtJk55FBjO-1",
     mockupImages: finebank.slice(1),
   },
   {
@@ -304,7 +304,7 @@ export const allProjects: Project[] = [
   solution: "Developed the platform using Next.js and TypeScript, focusing on user experience and visual design. Tailwind CSS was utilized to create a responsive layout that adapts to various screen sizes while maintaining a consistent aesthetic.",
   results: "The Dwello real estate platform provides users with an efficient way to buy and sell properties. The intuitive design and easy navigation enhance user satisfaction, making it a preferred choice for real estate transactions.",
   technologies: ["Figma"],
-    link: "https://dwello-real-estate-example.vercel.app/",
+    link: "https://www.figma.com/proto/MgLahGtxLF01rsVuS1XHrp/Dwello_estate?node-id=1-2&p=f&t=W2QEXTjawWMRLpWR-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
     mockupImages: dwello.slice(1),
   },
 
