@@ -33,7 +33,7 @@ export const technologies = [
   {
     category: "Backend",
     icon: Database,
-    items: ["Node.js", "Express", "Python", "PostgreSQL", "MongoDB", "REST APIs"]
+    items: ["Node.js", "Express", "Python", "PostgreSQL", "MongoDB", "SpringBoot"]
   },
   {
     category: "DevOps",
@@ -49,4 +49,8 @@ export const technologies = [
 export const socialLinks = [
   { href: "https://www.linkedin.com/in/duttasubhajit956/", Label: "LinkedIn", icon: Linkedin },
   { href: "https://github.com/Subhaji-Dutta", Label: "GitHub", icon: Github }
+];
+
+export const ResumeLink =[
+  { href: "https://drive.google.com/file/d/1-VWku3Uhn9XXXrjDX_vpIkN4F5jboC_J/view"}
 ];

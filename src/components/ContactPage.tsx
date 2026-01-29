@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin} from 'lucide-react';
+import { Mail, Phone, MapPin, Send} from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import styles from '../styles/font.module.css';
 import {motion} from 'motion/react';
+import { socialLinks} from '../data/data';
 
 export function ContactPage() {
   const [formData, setFormData] = useState({
@@ -118,7 +119,7 @@ export function ContactPage() {
                 </div>
                 <div>
                   <div className={`${styles.logoText} mb-1`}>Location</div>
-                  <p className={`${styles.paraText} text-gray-400`}>WB, INDIA</p>
+                  <p className={`${styles.paraText} text-gray-400`}>Kolkata,WB, INDIA</p>
                 </div>
               </div>
             </div>
@@ -132,20 +133,23 @@ export function ContactPage() {
             >
               <h3 className={`${styles.logoText} mb-4`}>Follow Me</h3>
               <div className="flex gap-4">
-                <a
-                  href="https://github.com/Subhaji-Dutta"
-                  className="w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center hover:bg-red-600 transition-colors"
-                  aria-label="GitHub"
-                >
-                  <Github size={24} />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/duttasubhajit956/"
-                  className="w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center hover:bg-red-600 transition-colors"
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin size={24} />
-                </a>
+                {socialLinks.map((link) =>(
+                          <motion.a
+                            key={link.Label}
+                            href={link.href}
+                            className="w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center hover:bg-red-600 transition-colors" 
+                            target="_blank"
+                             rel="noopener noreferrer"
+                             whileHover={{ scale: 1.2, y: -2 }}
+                                  whileTap={{ scale: 0.9 }}
+                                  initial={{ opacity: 0, scale:1 }}
+                                  whileInView={{ opacity: 1, scale:1 }}
+                                  viewport={{ once: true }}
+                                  transition={{ duration: 0.3 }}
+                            >
+                              <link.icon size={24} />
+                          </motion.a>
+                        ))}
               </div>
             </motion.div>
 
@@ -156,7 +160,7 @@ export function ContactPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.5 }}
             >
-              <h3 className={`${styles.logoText} mb-2`}>Availability</h3>
+              <h3 className={`${styles.logoText} mb-2 pt-2`}>Availability</h3>
               <p className={`${styles.paraText} text-gray-400 text-sm mb-4`}>
                 Currently accepting new projects and freelance opportunities
               </p>

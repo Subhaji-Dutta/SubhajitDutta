@@ -103,6 +103,8 @@ export function Footer({ setCurrentPage }: FooterProps) {
                   whileInView={{ opacity: 1, scale:1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.3, delay: 0.3 }}
+                  target="_blank"
+                   rel="noopener noreferrer"
                 >
                   <link.icon size={24} />
                 </motion.a>

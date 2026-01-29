@@ -5,7 +5,7 @@ import { motion } from 'motion/react';
 
 export function Stack() {
     return (
-        <div className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-black to-gray-950">
+        <div className="pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-black to-gray-950">
       <div className="max-w-7xl mx-auto">
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {technologies.map((tech,index) => (

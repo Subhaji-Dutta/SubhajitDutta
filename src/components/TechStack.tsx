@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 
 export function TechStack() {
   return (
-    <div className="py-20 px-4 sm:px-6 lg:px-8 ">
+    <div className="pt-20 px-4 sm:px-6 lg:px-8 ">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <motion.div 

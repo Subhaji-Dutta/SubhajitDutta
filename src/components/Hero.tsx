@@ -1,4 +1,4 @@
-import { Code,Linkedin, Github, ChevronLeft,ChevronRight,Sparkles} from 'lucide-react';
+import { Code, ChevronLeft,ChevronRight,Sparkles} from 'lucide-react';
 import styles from '../styles/font.module.css';
 import hero2 from './../assets/gallery/hero2.png';
 import hero from './../assets/gallery/hero.png';
@@ -7,6 +7,8 @@ import { useEffect, useRef } from 'react';
 import Typed from "typed.js";
 import { tech } from '../data/data';
 import ParticlesBackground from '../assets/ParticlesBackground';
+import { socialLinks,ResumeLink } from '../data/data';
+
 
 export function Hero() {
 const typedInstance = useRef<Typed | null>(null);
@@ -95,8 +97,7 @@ const el = useRef<HTMLSpanElement | null>(null);
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
             >
-              A passionate web developer specializing in modern JavaScript frameworks, scalable backend systems,
-              and intuitive user interfaces. Transforming ideas into powerful web applications.
+            Frontend and UI/UX developer specializing in modern JavaScript frameworks and responsive design, with a solid understanding of backend systems and a focus on building intuitive, production-ready web applications.
             </motion.p>
 
             <motion.div 
@@ -118,11 +119,29 @@ const el = useRef<HTMLSpanElement | null>(null);
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 1.0 }}
       >
-        <a href="https://www.linkedin.com/in/duttasubhajit956/"><Linkedin className="text-red-600" size={28} /></a>
-        <a href="https://github.com/Subhaji-Dutta"><Github className="text-red-600" size={28} /></a>
-        {/* <a href="#contact"><Twitter className="text-red-600" size={28} /></a> */}
+        {socialLinks.map((link) =>(
+          <motion.a
+            key={link.Label}
+            href={link.href}
+            className="text-red-600 hover:text-red-400 transition-colors" 
+            target="_blank"
+             rel="noopener noreferrer"
+             whileHover={{ scale: 1.2, y: -2 }}
+                  whileTap={{ scale: 0.9 }}
+                  initial={{ opacity: 0, scale:1 }}
+                  whileInView={{ opacity: 1, scale:1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.3 }}
+            >
+              <link.icon size={24} />
+          </motion.a>
+        ))}
 
-        <a className={`${styles.logoText} flex items-center gap-2 bg-white text-black px-8 py-3 rounded hover:bg-white/90`}>
+        <a className={`${styles.logoText} flex items-center gap-2 bg-white text-black px-8 py-3 rounded hover:bg-white/90`}
+        href={ResumeLink[0].href}
+        target="_blank" 
+      rel="noopener noreferrer"
+        >
           <Code size={20} />
           Resume
         </a>
