@@ -35,11 +35,11 @@ const tripsterImages = import.meta.glob(
   { eager: true, import: "default" }
 );
 const atlantisImages = import.meta.glob(
-  "../assets/gallery/atlantis/*.{jpg,jpeg,png,webp}",
+  "../assets/gallery/atlantis/*.{jpg,jpeg,png,webp,PNG}",
   { eager: true, import: "default" }
 );
 const furniImages = import.meta.glob(
-  "../assets/gallery/furni/*.{jpg,jpeg,png,webp}",
+  "../assets/gallery/furni/*.{jpg,jpeg,png,webp,PNG}",
   { eager: true, import: "default" }
 );
 const finebankImages = import.meta.glob(
@@ -51,7 +51,7 @@ const hirrdImages = import.meta.glob(
   { eager: true, import: "default" }
 );
 const dwelloImages = import.meta.glob(
-  "../assets/gallery/dwello/*.{jpg,jpeg,png,webp}",
+  "../assets/gallery/dwello/*.{jpg,jpeg,png,webp,PNG}",
   { eager: true, import: "default" }
 );
 
