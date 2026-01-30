@@ -77,6 +77,7 @@ const dwello = Object.values(dwelloImages) as string[];
 
 
 
+
 export interface Project {
   id: number;
   title: string;
@@ -185,7 +186,7 @@ export const allProjects: Project[] = [
     link: "https://spy-it.vercel.app/",
     mockupImages: spylt.slice(1),
   },
-  
+
   {
     id: 8,
     title: "Tipsy",
@@ -198,7 +199,7 @@ export const allProjects: Project[] = [
   solution: "Built the website using React and JavaScript with GSAP to implement smooth transitions, scroll-triggered animations, and parallax effects. Tailwind CSS was used for responsive layout and rapid styling, ensuring consistent design across screen sizes while keeping animation performance optimized.",
   results: "The animated interactions and parallax effects significantly improved user engagement, creating a memorable brand experience. Smooth scrolling and section transitions enhanced visual storytelling, helping the website stand out while maintaining fast load times and responsive behavior.",
   technologies: ["React", "JavaScript", "GSAP", "Tailwind CSS"],
-    link: "https://synca-eight.vercel.app/",
+    link: "https://tipsy-lilac.vercel.app/",
     mockupImages: tispy.slice(1),
   },
    {
@@ -307,5 +308,6 @@ export const allProjects: Project[] = [
     link: "https://www.figma.com/proto/MgLahGtxLF01rsVuS1XHrp/Dwello_estate?node-id=1-2&p=f&t=W2QEXTjawWMRLpWR-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
     mockupImages: dwello.slice(1),
   },
+   
 
 ];
