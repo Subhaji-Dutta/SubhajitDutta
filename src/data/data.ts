@@ -1,7 +1,7 @@
 import { Code2, Database, Palette,Cloud, Github,Linkedin } from 'lucide-react';
 
 
-export const tech=["React", "Node.js","UI/UX"];
+export const tech=["UI/UX","React"];
 
 export const experience = [
   {
@@ -14,13 +14,13 @@ export const experience = [
     year: "2024 - 2025",
     title: "Executive Developer",
     company: "Madhu Jayanti International Pvt. Ltd.",
-    description: "Led development of internal tools and projects, enhancing operational efficiency and user engagement increasing production efficiency by 50%."
+    description: "Designed and developed a PHP (CodeIgniter - MVC) based inventory management system to monitor raw materials, finished goods, and sales transactions.<br/>Structured MySQL database schema and implemented optimized CRUD operations for dynamic stock updates.<br/>Implemented user authentication and role-based access control to secure sensitive inventory data.<br/>Created interactive dashboards using Chart.js to visualize inventory trends and sales performance.<br/>Integrated email notifications for low stock alerts and automated report generation.<br/>Collaborated with cross-functional teams to gather requirements and ensure the system met business needs.<br/>Automated weekly reporting workflows, generating structured summaries and delivering them via email to management.<br/>Digitized manual inventory processes, improving reporting consistency and operational visibility."
   },
   {
-    year: "2022 - 2024",
-    title: "Senior Developer",
+    year: "2023 - 2024",
+    title: "Web Developer & Technical Trainer ",
     company: "Exceed Robtix Solutions Pvt. Ltd.",
-    description: "Led development of multiple client projects, ensuring timely delivery and high-quality standards. Mentored junior developers and collaborated closely with design teams to create seamless user experiences."
+    description: "Developed and customized LMS portals using WordPress, improving content delivery workflows for 100+ learners.<br/> Customized themes and integrated plugins to meet organizational requirements.<br/>Built responsive, mobile-friendly web pages using HTML, CSS, and JavaScript with focus on UI clarity and accessibility.<br/> Conducted structured frontend development training sessions covering HTML, CSS, and JavaScript fundamentals.<br/> Collaborated with clients and internal teams to troubleshoot technical issues and deliver functional web solutions."
   }
 ];
 

@@ -19,7 +19,6 @@ const el = useRef<HTMLSpanElement | null>(null);
     typedInstance.current = new Typed(el.current, {
       strings: [
         "Frontend Developer",
-        "Full-Stack Developer",
         "UI/UX Designer",
       ],
       typeSpeed: 100,
