@@ -58,6 +58,18 @@ const k72Images = import.meta.glob(
   "../assets/gallery/k72/*.{jpg,jpeg,png,webp,PNG}",
   { eager: true, import: "default" }
 );
+const schedulrrImages = import.meta.glob(
+  "../assets/gallery/schedulrr/*.{jpg,jpeg,png,webp,PNG}",
+  { eager: true, import: "default" }
+);
+const flexfitImages = import.meta.glob(
+  "../assets/gallery/flexfit/*.{jpg,jpeg,png,webp,PNG}",
+  { eager: true, import: "default" }
+);
+const memoWorldImages = import.meta.glob(
+  "../assets/gallery/memo-world/*.{jpg,jpeg,png,webp,PNG}",
+  { eager: true, import: "default" }
+);
 
 
 
@@ -78,6 +90,9 @@ const finebank = Object.values(finebankImages) as string[];
 const hirrd = Object.values(hirrdImages) as string[];
 const dwello = Object.values(dwelloImages) as string[];
 const k72 = Object.values(k72Images) as string[];
+const schedulrr = Object.values(schedulrrImages) as string[];
+const flexfit = Object.values(flexfitImages) as string[];
+const memoWorld = Object.values(memoWorldImages) as string[];
 
 
 
@@ -363,7 +378,7 @@ export const allProjects: Project[] = [
     title: "MemoWorld",
     description: "A modern memo management platform designed to help users organize and store their notes efficiently.",
     category: "Frontend",
-    image: memoworld[0],
+    image: memoWorld[0],
     tags: ["Figma"],
     fullDescription: "MemoWorld is a modern memo management platform that helps users organize and store their notes efficiently. The platform features a clean design, intuitive navigation, and easy access to essential memo functions.",
     challenges: "Creating an intuitive user interface, ensuring easy access to key memo features, and designing a visually appealing layout that enhances user engagement.",
@@ -371,7 +386,7 @@ export const allProjects: Project[] = [
     results: "The MemoWorld memo management platform provides users with an efficient way to organize and store their notes. The intuitive design and easy navigation enhance user satisfaction, making it a preferred choice for memo management needs.",
     technologies: ["Figma"],
     link: "https://memo-world.vercel.app/",
-    mockupImages: memoworld.slice(1),
+    mockupImages: memoWorld.slice(1),
   },
   // {
   //   id: 19,
