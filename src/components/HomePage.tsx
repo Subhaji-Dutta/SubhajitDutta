@@ -9,13 +9,13 @@ interface HomePageProps {
 }
 const fullstack = allProjects.filter(
   p => p.category === "Full-Stack"
-).slice(0, 6);
+).slice(0, 4);
 const frontend = allProjects.filter(
   p => p.category === "Frontend"
-).slice(0, 6);
+).slice(0, 4);
 const uiux = allProjects.filter(
   p => p.category === "UI Design"
-).slice(0, 6);
+).slice(0, 4);
 
 export function HomePage({ onProjectClick }: HomePageProps) {
   return (
