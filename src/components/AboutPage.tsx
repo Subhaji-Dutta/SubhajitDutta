@@ -36,7 +36,7 @@ export function AboutPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-            Passionate developer and designer crafting digital experiences that make a difference
+            Developer by skill. Designer by instinct.
           </motion.p>
         </div>
       </div>
@@ -53,22 +53,24 @@ export function AboutPage() {
             <h2 className={`${styles.logoText} mb-6`}>My Story</h2>
             <div className={`${styles.paraText} space-y-4 text-gray-300`}>
               <p>
-                Hello! I'm a full-stack developer and designer with over 3 years of experience creating 
-                digital products that combine beautiful design with powerful functionality. My journey in 
-                tech started with a curiosity about how websites work, and has evolved into a passion for 
-                building seamless user experiences.
+                I'm Subhajit Dutta, a frontend and full-stack developer with a strong eye for design — 
+                someone who's equally comfortable writing clean React code and crafting interfaces that feel intuitive 
+                and beautiful.
               </p>
               <p>
-                I specialize in modern web technologies like React, Node.js, and cloud platforms, while 
-                maintaining a strong foundation in design principles. This unique combination allows me to 
-                bridge the gap between design and development, ensuring that every project I work on is 
-                both visually stunning and technically robust.
+                My journey into web development was driven by one simple obsession: I wanted to build things that didn't
+                 just work, but looked and felt exceptional. That obsession led me to professional roles at Madhu Jayanti
+                  International and Exceed Robtix Solutions, where I designed and developed client-facing web applications — 
+                  learning firsthand how great UI decisions directly impact real users and real businesses.
               </p>
               <p>
-                When I'm not coding or designing, you can find me exploring new technologies, contributing 
-                to open-source projects, or sharing knowledge with the developer community through blog posts 
-                and tutorials.
+                Over the past year I've invested deeply in that intersection of development and design — building 15+ projects 
+                spanning animation-heavy landing pages, SaaS dashboards, e-commerce platforms, fintech interfaces, and more. 
+                Every project pushed me to think like a designer first and an engineer second.
               </p>
+              <p>I'm now looking to bring that blend of skills to a web development or UI/UX design studio — somewhere that 
+                cares as much about how something looks and feels as it does about how it's built. If that sounds like your 
+                team, let's talk</p>
             </div>
           </motion.div>
           

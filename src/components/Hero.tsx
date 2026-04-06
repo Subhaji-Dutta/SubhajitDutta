@@ -96,7 +96,7 @@ const el = useRef<HTMLSpanElement | null>(null);
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
             >
-            Frontend and UI/UX developer specializing in modern JavaScript frameworks and responsive design, with a solid understanding of backend systems and a focus on building intuitive, production-ready web applications.
+            I build for the web. I design for the user.Full-Stack Developer open to web development & design roles.
             </motion.p>
 
             <motion.div 
