@@ -70,6 +70,14 @@ const memoWorldImages = import.meta.glob(
   "../assets/gallery/memoworld/*.{jpg,jpeg,png,webp,PNG}",
   { eager: true, import: "default" }
 );
+const careerHuntImages = import.meta.glob(
+  "../assets/gallery/careerhunt/*.{jpg,jpeg,png,webp,PNG}",
+  { eager: true, import: "default" }  
+);
+const credCheckImages = import.meta.glob(
+  "../assets/gallery/credcheck/*.{jpg,jpeg,png,webp,PNG}",
+  { eager: true, import: "default" }  
+);
 
 
 
@@ -93,7 +101,8 @@ const k72 = Object.values(k72Images) as string[];
 const schedulrr = Object.values(schedulrrImages) as string[];
 const flexfit = Object.values(flexfitImages) as string[];
 const memoWorld = Object.values(memoWorldImages) as string[];
-
+const careerHunt = Object.values(careerHuntImages) as string[];
+const credCheck = Object.values(credCheckImages) as string[];
 
 
 
@@ -387,5 +396,35 @@ export const allProjects: Project[] = [
     technologies: ["React","Tailwind","TypeScript"],
     link: "https://memo-world.vercel.app/",
     mockupImages: memoWorld.slice(1),
+  },
+    {
+id: 19,
+title: "CareerHunt",
+description: "A full-stack job search platform designed to help users discover and apply for opportunities efficiently.",
+category: "Full Stack",
+image: careerHunt[0],
+tags: ["React", "Vite", "Express", "Node.js"],
+fullDescription: "CareerHunt is a full-stack job search platform that connects job seekers with listings through a fast, responsive interface. Built with a Vite-powered React frontend and a dedicated Express.js backend, the platform is deployed as two independent Vercel services — enabling clean separation of concerns, seamless scalability, and reliable performance.",
+challenges: "Adapting a traditional Express.js server to Vercel's serverless functions model, handling CORS across two separately deployed services, delivering fast and accurate job search and filtering without degrading user experience, and maintaining a consistent responsive UI across all device sizes.",
+solution: "Decoupled the application into two independently deployed Vercel projects — a Vite React frontend and an Express.js API. Configured environment-based API routing and CORS headers to enable secure cross-origin communication. Leveraged Vite's optimized production builds with code splitting for fast load times, and structured the Express app as a serverless-compatible handler for automatic scaling.",
+results: "CareerHunt is live in production on Vercel with both services successfully deployed. The decoupled architecture allows the frontend and backend to be updated, rolled back, and scaled independently. Vercel's Git integration enables preview deployments on every push, supporting rapid iteration and a professional-grade deployment workflow.",
+technologies: ["React", "Vite", "TypeScript", "Express", "Node.js", "Vercel"],
+link: "https://career-hunt-blue.vercel.app/",
+mockupImages: careerHunt.slice(1),
+  },
+  {
+    id: 20,
+title: "CredCheck",
+description: "A full-stack credential verification platform designed to help users validate and check credentials quickly and reliably.",
+category: "Full Stack",
+image: credCheck[0],
+tags: ["React", "Vite", "Express", "Node.js"],
+fullDescription: "CredCheck is a full-stack credential verification platform that enables users to validate and check credentials with speed and confidence. Built with a Vite-powered React frontend and a dedicated Express.js backend, the platform is deployed as two independent Vercel services — delivering a clean, responsive interface backed by a robust and scalable API.",
+challenges: "Handling secure credential data across two separately deployed services, managing CORS between the frontend and backend on different Vercel domains, structuring the Express.js server to function reliably within Vercel's serverless model, and presenting verification results in a clear and user-friendly interface.",
+solution: "Decoupled the application into two independently deployed Vercel projects — a Vite React frontend and an Express.js API. Implemented environment-based API URL configuration and proper CORS handling for secure cross-origin requests. Adapted the Express server as a serverless-compatible handler for seamless deployment, and designed a clean UI that surfaces credential check results intuitively.",
+results: "CredCheck is live in production on Vercel with both services deployed and ready. The decoupled architecture allows independent updates and scaling of the frontend and backend. The platform delivers a fast, reliable credential verification experience with Vercel's Git integration enabling preview deployments on every push for confident, iterative development.",
+technologies: ["React", "Vite", "TypeScript", "Express", "Node.js", "Vercel"],
+link: "https://cred-check-eta.vercel.app/",
+mockupImages: credCheck.slice(1),
   },
 ];
