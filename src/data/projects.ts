@@ -388,8 +388,4 @@ export const allProjects: Project[] = [
     link: "https://memo-world.vercel.app/",
     mockupImages: memoWorld.slice(1),
   },
-<<<<<<< HEAD
-
-=======
->>>>>>> 127c4f61fc5a11adac53c872ca61f51d4f99e153
 ];

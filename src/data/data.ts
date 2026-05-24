@@ -1,26 +1,32 @@
 import { Code2, Database, Palette,Cloud, Github,Linkedin } from 'lucide-react';
 
 
-export const tech=["UI/UX","React"];
+export const tech=["UI/UX","React","TypeScript"];
 
 export const experience = [
   {
-    year: "2025 - Present",
-    title: "Freelance Web Developer/Designer",
-    company: "Freelance",
-    description: "Developing and designing custom web applications for clients across various industries."
-  },
+    year: "Apr 2025 – Present",
+    title: "Freelance Developer & Designer",
+    company: "Independent",
+    description:   ["• Designed and built 15+ full-stack projects spanning SaaS dashboards, e-commerce platforms, fintech interfaces, and animation-heavy landing pages — using React, Next.js, TypeScript, Tailwind, GSAP, and Zustand, with AI-assisted development workflows (Cursor, Claude) to accelerate delivery.",
+                    "• Applied end-to-end UI/UX process on every project — user research, competitor analysis, Figma wireframes and interactive prototypes, through to pixel-perfect, WCAG-accessible implementation with live deployments and detailed case studies."
+                ]
+    },
     {
-    year: "2024 - 2025",
+    year: "Sep 2024 – Mar 2025",
     title: "Executive Developer",
-    company: "Madhu Jayanti International Pvt. Ltd.",
-    description: "Designed and developed a PHP (CodeIgniter - MVC) based inventory management system to monitor raw materials, finished goods, and sales transactions.<br/>Structured MySQL database schema and implemented optimized CRUD operations for dynamic stock updates.<br/>Implemented user authentication and role-based access control to secure sensitive inventory data.<br/>Created interactive dashboards using Chart.js to visualize inventory trends and sales performance.<br/>Integrated email notifications for low stock alerts and automated report generation.<br/>Collaborated with cross-functional teams to gather requirements and ensure the system met business needs.<br/>Automated weekly reporting workflows, generating structured summaries and delivering them via email to management.<br/>Digitized manual inventory processes, improving reporting consistency and operational visibility."
+    company: "Madhu Jayanti International Pvt. Ltd., Howrah",
+    description:   ["• Designed and developed a PHP (CodeIgniter MVC) + MySQL inventory management system from scratch, digitizing end-to-end stock tracking for a 50+ employee operation and eliminating manual reporting processes — reducing reporting time significantly.",
+                    "• Automated weekly management reporting via email and improved operational visibility across raw materials, finished goods, and sales transactions."
+                ]
   },
   {
-    year: "2023 - 2024",
-    title: "Web Developer & Technical Trainer ",
-    company: "Exceed Robtix Solutions Pvt. Ltd.",
-    description: "Developed and customized LMS portals using WordPress, improving content delivery workflows for 100+ learners.<br/> Customized themes and integrated plugins to meet organizational requirements.<br/>Built responsive, mobile-friendly web pages using HTML, CSS, and JavaScript with focus on UI clarity and accessibility.<br/> Conducted structured frontend development training sessions covering HTML, CSS, and JavaScript fundamentals.<br/> Collaborated with clients and internal teams to troubleshoot technical issues and deliver functional web solutions."
+    year: "Mar 2022 – Aug 2024",
+    title: "Web Developer & Technical Trainer",
+    company: "Exceed Robtix Solutions Pvt. Ltd., Kolkata",
+    description:   ["• Developed and customized LMS portals using WordPress, improving content delivery for 100+ active learners; built responsive, accessible web pages using HTML, CSS, and JavaScript — ensuring cross-browser compatibility and mobile-first design",
+                    "• Conducted structured frontend training sessions for student cohorts and collaborated with clients to troubleshoot and ship web solutions on deadline."
+                ]
   }
 ];
 

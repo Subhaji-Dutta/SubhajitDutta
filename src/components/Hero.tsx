@@ -96,7 +96,7 @@ const el = useRef<HTMLSpanElement | null>(null);
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
             >
-            I build for the web. I design for the user.Full-Stack Developer open to web development & design roles.
+           I build for the web. I design for the user. Full-Stack Developer open to web development & design roles.
             </motion.p>
 
             <motion.div 

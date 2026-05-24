@@ -36,7 +36,7 @@ export function AboutPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-            Developer by skill. Designer by instinct.
+           Developer by skill. Designer by instinct.
           </motion.p>
         </div>
       </div>
@@ -54,7 +54,7 @@ export function AboutPage() {
             <div className={`${styles.paraText} space-y-4 text-gray-300`}>
               <p>
                 I'm Subhajit Dutta, a frontend and full-stack developer with a strong eye for design — 
-                someone who's equally comfortable writing clean React code and crafting interfaces that feel intuitive 
+                someone equally comfortable writing clean React code and crafting interfaces that feel intuitive 
                 and beautiful.
               </p>
               <p>
@@ -64,7 +64,7 @@ export function AboutPage() {
                   learning firsthand how great UI decisions directly impact real users and real businesses.
               </p>
               <p>
-                Over the past year I've invested deeply in that intersection of development and design — building 15+ projects 
+                Over the past year, I've invested deeply in that intersection of development and design — building 15+ projects 
                 spanning animation-heavy landing pages, SaaS dashboards, e-commerce platforms, fintech interfaces, and more. 
                 Every project pushed me to think like a designer first and an engineer second.
               </p>
@@ -123,7 +123,11 @@ export function AboutPage() {
                 <div className={`${styles.logoText} text-red-600 text-sm mb-2`}>{exp.year}</div>
                 <h3 className={`${styles.headText} mb-1`}>{exp.title}</h3>
                 <div className={`${styles.logoText} text-gray-400 mb-2`}>{exp.company}</div>
-                <p className={`${styles.paraText} text-gray-300 text-sm`}>{exp.description}</p>
+                <ul className={`${styles.paraText} text-gray-300 text-sm list-disc ml-5`}>
+                    {exp.description.map((point: string, index: number) => (
+                      <li key={index}>{point}</li>
+                    ))}
+                </ul>
               </motion.div>
             ))}
           </div>
