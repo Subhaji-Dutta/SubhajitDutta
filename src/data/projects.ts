@@ -71,11 +71,11 @@ const memoWorldImages = import.meta.glob(
   { eager: true, import: "default" }
 );
 const careerHuntImages = import.meta.glob(
-  "../assets/gallery/careerhunt/*.{jpg,jpeg,png,webp,PNG}",
+  "../assets/gallery/careerHunt/*.{jpg,jpeg,png,webp,PNG}",
   { eager: true, import: "default" }  
 );
 const credCheckImages = import.meta.glob(
-  "../assets/gallery/credcheck/*.{jpg,jpeg,png,webp,PNG}",
+  "../assets/gallery/credCheck/*.{jpg,jpeg,png,webp,PNG}",
   { eager: true, import: "default" }  
 );
 
