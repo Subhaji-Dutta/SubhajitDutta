@@ -21,8 +21,7 @@ export function HomePage({ onProjectClick }: HomePageProps) {
   return (
     <div className='min-h-screen pt-6 min-w-full'>
       <Hero />
-      <TechStack />
-      <Stack />
+      
       <div className="pb-16">
       <div className="pt-4">
         <ProjectRow
@@ -42,6 +41,9 @@ export function HomePage({ onProjectClick }: HomePageProps) {
           onProjectClick={onProjectClick}
         />
         </div>
+        <TechStack />
+      <Stack />
       </div>
+      
   );
 }
