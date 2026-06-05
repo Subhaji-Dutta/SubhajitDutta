@@ -409,7 +409,7 @@ challenges: "Adapting a traditional Express.js server to Vercel's serverless fun
 solution: "Decoupled the application into two independently deployed Vercel projects — a Vite React frontend and an Express.js API. Configured environment-based API routing and CORS headers to enable secure cross-origin communication. Leveraged Vite's optimized production builds with code splitting for fast load times, and structured the Express app as a serverless-compatible handler for automatic scaling.",
 results: "CareerHunt is live in production on Vercel with both services successfully deployed. The decoupled architecture allows the frontend and backend to be updated, rolled back, and scaled independently. Vercel's Git integration enables preview deployments on every push, supporting rapid iteration and a professional-grade deployment workflow.",
 technologies: ["React", "Vite", "TypeScript", "Express", "Node.js", "Vercel"],
-link: "https://career-hunt-blue.vercel.app/",
+link: "https://career-hunt-2cs9.vercel.app/",
 mockupImages: careerHunt.slice(1),
   },
   {
@@ -424,7 +424,7 @@ challenges: "Handling secure credential data across two separately deployed serv
 solution: "Decoupled the application into two independently deployed Vercel projects — a Vite React frontend and an Express.js API. Implemented environment-based API URL configuration and proper CORS handling for secure cross-origin requests. Adapted the Express server as a serverless-compatible handler for seamless deployment, and designed a clean UI that surfaces credential check results intuitively.",
 results: "CredCheck is live in production on Vercel with both services deployed and ready. The decoupled architecture allows independent updates and scaling of the frontend and backend. The platform delivers a fast, reliable credential verification experience with Vercel's Git integration enabling preview deployments on every push for confident, iterative development.",
 technologies: ["React", "Vite", "TypeScript", "Express", "Node.js", "Vercel"],
-link: "https://cred-check-eta.vercel.app/",
+link: "https://cred-check-4z1e.vercel.app/",
 mockupImages: credCheck.slice(1),
   },
 ];
