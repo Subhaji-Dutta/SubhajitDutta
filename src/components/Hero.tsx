@@ -84,8 +84,8 @@ const el = useRef<HTMLSpanElement | null>(null);
             transition={{ duration: 0.8, delay: 0.6 }}
             >
               <ChevronLeft className="text-red-600" size={32} />
-              <span className={`${styles.logoText} text-red-600 tracking-wider`} ref={el}>
-                {el.current ? el.current.textContent : "Web Developer"}
+              <span className={`${styles.logoText} text-red-600 tracking-wider`}>
+                Full-Stack Developer
               </span>
               <ChevronRight className="text-red-600" size={32} />
             </motion.div>

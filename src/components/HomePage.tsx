@@ -32,10 +32,11 @@ export function HomePage({ onProjectClick }: HomePageProps) {
         />
       <div className="pt-4">
         <ProjectRow
-          title="UI/UX Design"
-          projects={uiux}
+          title="Full-Stack Development"
+          projects={fullstack}
           onProjectClick={onProjectClick}
         />
+        
         </div>
         <ProjectRow
           title="Frontend Development"
@@ -43,8 +44,8 @@ export function HomePage({ onProjectClick }: HomePageProps) {
           onProjectClick={onProjectClick}
         />
         <ProjectRow
-          title="Full-Stack Development"
-          projects={fullstack}
+          title="UI/UX Design"
+          projects={uiux}
           onProjectClick={onProjectClick}
         />
         </div>

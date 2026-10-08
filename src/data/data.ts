@@ -8,24 +8,27 @@ export const experience = [
     year: "Apr 2025 – Present",
     title: "Freelance Developer & Designer",
     company: "Independent",
-    description:   ["• Designed and built 15+ full-stack projects spanning SaaS dashboards, e-commerce platforms, fintech interfaces, and animation-heavy landing pages — using React, Next.js, TypeScript, Tailwind, GSAP, and Zustand, with AI-assisted development workflows (Cursor, Claude) to accelerate delivery.",
-                    "• Applied end-to-end UI/UX process on every project — user research, competitor analysis, Figma wireframes and interactive prototypes, through to pixel-perfect, WCAG-accessible implementation with live deployments and detailed case studies."
+    description:   ["• Designed landing pages in Figma and built them as responsive websites for local businesses and institutions, from layout to live deployment.",
+                    "• Built an expense tracker and teacher salary management system for a local institution, using Excel as the data layer and Power BI daashboards for management reporting.",
+                    "• DBuilt and deployed full stack projects(React, Next.js, Node.js, FastAPI, PostgreSQL, MongoDB) with LLM integration."
                 ]
     },
     {
     year: "Sep 2024 – Mar 2025",
     title: "Executive Developer",
     company: "Madhu Jayanti International Pvt. Ltd., Howrah",
-    description:   ["• Designed and developed a PHP (CodeIgniter MVC) + MySQL inventory management system from scratch, digitizing end-to-end stock tracking for a 50+ employee operation and eliminating manual reporting processes — reducing reporting time significantly.",
-                    "• Automated weekly management reporting via email and improved operational visibility across raw materials, finished goods, and sales transactions."
+    description:   ["• Digitized raw material and finished goods, and sales tracking by building a PHP(CodeIgniter MVC) and MySQL-based inventory management system, giving management consistent, real-time visibility into stock levels, sales transactions, and order fulfillment.",
+                    "• Automated weekly management reporting by generating structured summaries and emailing them to management.",
+                    "• Designed the MySQL database schema, implemented the backend logic, optimized CRUD operations for dynamic stock updates."
                 ]
   },
   {
-    year: "Mar 2022 – Aug 2024",
+    year: "Sep 2022 – Aug 2024",
     title: "Web Developer & Technical Trainer",
     company: "Exceed Robtix Solutions Pvt. Ltd., Kolkata",
-    description:   ["• Developed and customized LMS portals using WordPress, improving content delivery for 100+ active learners; built responsive, accessible web pages using HTML, CSS, and JavaScript — ensuring cross-browser compatibility and mobile-first design",
-                    "• Conducted structured frontend training sessions for student cohorts and collaborated with clients to troubleshoot and ship web solutions on deadline."
+    description:   ["• Improved content delivery for 100+ learners by building and customizing WordPress LMS portals with custom themes and plugins, integrating payment gateways, and implementing gamification features.",
+                    "• Trained and mentored 50+ students in web development, covering HTML, CSS, JavaScript, React, and WordPress, resulting in a 90% course completion rate and successful job placements.",
+                    "• Developed and maintained 10+ client websites, ensuring responsive design, cross-browser compatibility, and SEO optimization."
                 ]
   }
 ];
