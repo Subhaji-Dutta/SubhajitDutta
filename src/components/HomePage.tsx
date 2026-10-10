@@ -12,7 +12,7 @@ interface HomePageProps {
 }
 const fullstack = allProjects.filter(
   p => p.category === "Full-Stack"
-).reverse().slice(0, 4);
+).slice(0, 4);
 const frontend = allProjects.filter(
   p => p.category === "Frontend"
 ).slice(0, 4);

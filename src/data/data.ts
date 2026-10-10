@@ -1,9 +1,9 @@
 import { Code2, Database, Palette,Cloud, Github,Linkedin } from 'lucide-react';
 
 
-export const tech=["UI/UX","React","TypeScript"];
+export const tech=["React","Next.js","TypeScript","Node.js","Python","SQL"];
 
-export const coreSkills = ["Python", "ROS", "C++", "React", "Node.js", "TensorFlow"];
+export const coreSkills = ["React", "Next.js", "TypeScript", "Python", "Node.js", "SQL"];
 
 export const experience = [
   {
@@ -39,22 +39,22 @@ export const technologies = [
   {
     category: "Frontend",
     icon: Palette,
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Motion/Framer","UI/UX Design"]
+    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion","GSAP"]
   },
   {
     category: "Backend",
-    icon: Database,
-    items: ["Node.js", "Express", "Python", "PostgreSQL", "MongoDB", "SpringBoot"]
-  },
-  {
-    category: "DevOps",
-    icon: Cloud,
-    items: ["Firebase", "AWS", "Vercel", "GitHub Actions", "Azure", "Supabase"]
-  },
-  {
-    category: "Tools",
     icon: Code2,
-    items: ["Git", "VS Code", "Figma", "Postman", "Coral Draw", "Clerk"]
+    items: ["Node.js", "Express", "Python", "FastAPI", "REST API", "SpringBoot"]
+  },
+  {
+    category: "Data & AI",
+    icon: Database,
+    items: ["SQL", "MongoDB", "Neo4j", "LLM Integration", "Power BI","Hugging Face API"]
+  },
+  {
+    category: "Tools & Cloud",
+    icon: Cloud,
+    items: ["Git & GitHub", "Figma", "Postman", "Vercel", "Supabase","Firebase"]
   }
 ];
 export const socialLinks = [

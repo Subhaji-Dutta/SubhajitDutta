@@ -49,7 +49,7 @@ export function ProjectsPage({ onProjectClick }: ProjectsPageProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Explore my diverse portfolio spanning web development, data analytics, design, and robotics
+            Things I’ve built: full-stack apps, AI tools and UI work.
           </motion.p>
         </div>
       </div>

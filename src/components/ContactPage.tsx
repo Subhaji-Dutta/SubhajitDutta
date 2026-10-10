@@ -57,7 +57,7 @@ export function ContactPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           className={`${styles.headText} text-xl text-gray-300 max-w-2xl mx-auto`}>
-            Let's discuss your next project or just say hello
+            Open to full-time roles. Say hello.
           </motion.p>
         </div>
       </div>
@@ -272,7 +272,7 @@ export function ContactPage() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <ImageWithFallback
+          <img
             src="/src/assets/gallery/Black Minimalist Linkedin Banner.png"
             alt="Office location"
             className="w-full h-full object-cover"

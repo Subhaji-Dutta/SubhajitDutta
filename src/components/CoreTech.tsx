@@ -29,7 +29,7 @@ const SkillChip = ({ skill, isCore = false }: { skill: string, isCore?: boolean 
       }`}>
         {skill} 
         {relatedProjects.length > 0 && (
-          <span className={`text-xs px-1.5 py-0.5 rounded-full ${isCore ? 'bg-gray-700 text-gray-300' : 'bg-gray-800'}`}>
+          <span className={`text-xs px-2 py-0.5 rounded-full ${isCore ? 'bg-gray-700 text-gray-300' : 'bg-gray-800 text-gray-500'}`}>
             {relatedProjects.length}
           </span>
         )}

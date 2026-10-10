@@ -131,23 +131,25 @@ const el = useRef<HTMLSpanElement | null>(null);
           <Code size={20} />
           Resume
         </a>
-        {socialLinks.map((link) =>(
-          <motion.a
-            key={link.Label}
-            href={link.href}
-            className="flex items-center gap-3 text-red-600 px-2 py-3 hover:text-red-400 transition-colors sm:ml-2" 
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.2, y: -2 }}
-                  whileTap={{ scale: 0.9 }}
-                  initial={{ opacity: 0, scale:1 }}
-                  whileInView={{ opacity: 1, scale:1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.3 }}
-            >
-              <link.icon size={24} />
-          </motion.a>
-        ))}
+        <div className="flex gap-4">
+                {socialLinks.map((link) =>(
+                          <motion.a
+                            key={link.Label}
+                            href={link.href}
+                            className="w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center hover:bg-red-600 transition-colors" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            whileHover={{ scale: 1.2, y: -2 }}
+                                  whileTap={{ scale: 0.9 }}
+                                  initial={{ opacity: 0, scale:1 }}
+                                  whileInView={{ opacity: 1, scale:1 }}
+                                  viewport={{ once: true }}
+                                  transition={{ duration: 0.3 }}
+                            >
+                              <link.icon size={24} />
+                          </motion.a>
+                        ))}
+              </div>
       </motion.div>
     </div>
 

@@ -36,7 +36,7 @@ export function AboutPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-           Developer by skill. Designer by instinct.
+           From database to interface, I build it end to end.
           </motion.p>
         </div>
       </div>
@@ -53,24 +53,15 @@ export function AboutPage() {
             <h2 className={`${styles.logoText} mb-6`}>My Story</h2>
             <div className={`${styles.paraText} space-y-4 text-gray-300`}>
               <p>
-                I'm Subhajit Dutta, a frontend and full-stack developer with a strong eye for design — 
-                someone equally comfortable writing clean React code and crafting interfaces that feel intuitive 
-                and beautiful.
+                I’m Subhajit Dutta, a full-stack developer who builds web products from the interface down to the database. I work mainly with React, Next.js, TypeScript, Node.js and Python, and I care that what I ship is as pleasant to use as it is to maintain.
               </p>
               <p>
-                My journey into web development was driven by one simple obsession: I wanted to build things that didn't
-                 just work, but looked and felt exceptional. That obsession led me to professional roles at Madhu Jayanti
-                  International and Exceed Robtix Solutions, where I designed and developed client-facing web applications — 
-                  learning firsthand how great UI decisions directly impact real users and real businesses.
+                I started with a B.Tech in Electrical Engineering (MAKAUT, 2023) and moved into web development professionally. At Exceed Robtix Solutions I built and taught web development, including LMS portals for 100+ learners. At Madhu Jayanti International I built an inventory system with PHP and MySQL used by 50+ employees.
               </p>
               <p>
-                Over the past year, I've invested deeply in that intersection of development and design — building 15+ projects 
-                spanning animation-heavy landing pages, SaaS dashboards, e-commerce platforms, fintech interfaces, and more. 
-                Every project pushed me to think like a designer first and an engineer second.
+                Since 2025 I’ve been freelancing for local businesses and institutions while building my own full-stack projects, including an AI study planner (Next.js, Prisma, Gemini) and a multi-agent travel planner (FastAPI, Groq). I’m also pursuing an MCA at VIT to strengthen my fundamentals.
               </p>
-              <p>I'm now looking to bring that blend of skills to a web development or UI/UX design studio — somewhere that 
-                cares as much about how something looks and feels as it does about how it's built. If that sounds like your 
-                team, let's talk</p>
+              <p>I’m open to full-time software developer roles in Kolkata, Hyderabad and Bangalore. If you’re building something where the backend and the interface both matter, let’s talk.</p>
             </div>
           </motion.div>
           
