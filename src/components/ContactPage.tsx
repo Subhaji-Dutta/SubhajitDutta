@@ -273,7 +273,7 @@ export function ContactPage() {
           transition={{ duration: 0.6 }}
         >
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1920&h=600&fit=crop"
+            src="/src/assets/gallery/Black Minimalist Linkedin Banner.png"
             alt="Office location"
             className="w-full h-full object-cover"
           />

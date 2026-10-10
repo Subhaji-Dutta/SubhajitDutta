@@ -1,4 +1,4 @@
-import { Code, ChevronLeft,ChevronRight,Sparkles} from 'lucide-react';
+import { Code, ChevronLeft,ChevronRight,Sparkles, Zap} from 'lucide-react';
 import styles from '../styles/font.module.css';
 import hero2 from './../assets/gallery/hero2.png';
 import hero from './../assets/gallery/hero.png';
@@ -118,23 +118,10 @@ const el = useRef<HTMLSpanElement | null>(null);
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 1.0 }}
       >
-        {socialLinks.map((link) =>(
-          <motion.a
-            key={link.Label}
-            href={link.href}
-            className="text-red-600 hover:text-red-400 transition-colors" 
-            target="_blank"
-             rel="noopener noreferrer"
-             whileHover={{ scale: 1.2, y: -2 }}
-                  whileTap={{ scale: 0.9 }}
-                  initial={{ opacity: 0, scale:1 }}
-                  whileInView={{ opacity: 1, scale:1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.3 }}
-            >
-              <link.icon size={24} />
-          </motion.a>
-        ))}
+        <button className={`${styles.logoText} flex items-center gap-2 bg-red-600 text-white px-8 py-3 rounded hover:bg-red-700 transition-colors`}>
+              <Zap size={20} />
+              View Projects
+            </button>
 
         <a className={`${styles.logoText} flex items-center gap-2 bg-white text-black px-8 py-3 rounded hover:bg-white/90`}
         href={ResumeLink[0].href}
@@ -144,6 +131,23 @@ const el = useRef<HTMLSpanElement | null>(null);
           <Code size={20} />
           Resume
         </a>
+        {socialLinks.map((link) =>(
+          <motion.a
+            key={link.Label}
+            href={link.href}
+            className="flex items-center gap-3 text-red-600 px-2 py-3 hover:text-red-400 transition-colors sm:ml-2" 
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.2, y: -2 }}
+                  whileTap={{ scale: 0.9 }}
+                  initial={{ opacity: 0, scale:1 }}
+                  whileInView={{ opacity: 1, scale:1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.3 }}
+            >
+              <link.icon size={24} />
+          </motion.a>
+        ))}
       </motion.div>
     </div>
 

@@ -3,6 +3,8 @@ import { Code2, Database, Palette,Cloud, Github,Linkedin } from 'lucide-react';
 
 export const tech=["UI/UX","React","TypeScript"];
 
+export const coreSkills = ["Python", "ROS", "C++", "React", "Node.js", "TensorFlow"];
+
 export const experience = [
   {
     year: "Apr 2025 – Present",

@@ -35,6 +35,10 @@ export function Footer({ setCurrentPage }: FooterProps) {
             <a href="tel:+918274932405" className="text-gray-400 hover:text-red-600 transition-colors">
                     +91 8274932405
             </a>
+            <div className="flex items-center gap-2">
+                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
+                <span className={`${styles.logoText} text-green-500 text-sm`}>Available for hire</span>
+              </div>
             </p>
           </motion.div>
 

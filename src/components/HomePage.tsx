@@ -4,6 +4,7 @@ import { TechStack } from './TechStack';
 import { allProjects } from '../data/projects';
 import { Stack } from './Stack';
 import { Zap, FolderGit2 } from 'lucide-react';
+import { CoreTech } from './CoreTech';
 
 
 interface HomePageProps {
@@ -23,7 +24,7 @@ export function HomePage({ onProjectClick }: HomePageProps) {
   return (
     <div className='min-h-screen pt-6 min-w-full'>
       <Hero />
-      
+      <CoreTech />
       <div className="pb-16">
         <TechStack
           Icon={FolderGit2}
@@ -49,12 +50,13 @@ export function HomePage({ onProjectClick }: HomePageProps) {
           onProjectClick={onProjectClick}
         />
         </div>
-        <TechStack
+        {/* <TechStack
   Icon={Zap}
   title="Technology Stack"
   description="Leveraging cutting-edge technologies to build scalable apps"
-/>
-      <Stack />
+/> */}
+      {/* <Stack /> */}
+      
       </div>
       
   );
